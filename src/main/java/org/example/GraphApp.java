@@ -12,7 +12,7 @@ public class GraphApp {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("Welcome to the Graph Text Processor!");
+        System.out.println("Hi,Welcome to the Graph Text Processor!");
         System.out.println("Please enter the path to the text file:");
         String filePath = scanner.nextLine();
         graph = Graph.createGraphFromFile(filePath);
