@@ -119,6 +119,7 @@ public class GraphApp {
         randomWalk.writeRandomWalkToFile(walkResult, "src/main/resources/RandomResult/randomWalkResult.txt");
         System.out.println("Random walk path has been written to 'randomWalkResult.txt'.");
     }
+    //end
 
 
 
